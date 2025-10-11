@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Remotes -->
-    <remote name="JanDimple" fetch="https://github.com/JanDimple" clone-depth="1" />
+    <remote name="DAniloooo8810" fetch="https://github.com/DAniloooo8810" clone-depth="1" />
     <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
         
     <!-- Device -->
-    <project path="device/xiaomi/earth" name="android_device_xiaomi_earth" remote="JanDimple" revision="lineage-23.0" />
+    <project path="device/xiaomi/tanzanite" name="android_device_xiaomi_tanzanite" remote="DAniloooo8810" revision="lineage-23.0" />
     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="LineageOS" revision="lineage-23.0" />
 
     <!-- Kernel -->
-    <project path="kernel/xiaomi/earth" name="android_kernel_xiaomi_earth" remote="JanDimple" revision="lineage-22.2" />
+    <project path="kernel/xiaomi/tanzanite" name="android_kernel_xiaomi_tanzanite" remote="DAniloooo8810" revision="lineage-22.2" />
 
     <!-- Vendor -->
-    <project path="vendor/xiaomi/earth" name="proprietary_vendor_xiaomi_earth" remote="JanDimple" revision="lineage-23.0" />
+    <project path="vendor/xiaomi/tanzanite" name="proprietary_vendor_xiaomi_tanzanite" remote="DAniloooo8810" revision="lineage-23.0" />
 
     <!-- Hardware -->
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-23.0" />
-    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="JanDimple" revision="lineage-23.0" />
+    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="DAniloooo8810" revision="lineage-23.0" />
 
     <!-- MediatekIMS -->
-    <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="JanDimple" revision="android-16" />
+    <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="DAniloooo8810" revision="android-16" />
 
 </manifest>
